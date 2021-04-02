@@ -1,0 +1,217 @@
+body h1 {
+    font-family: arial;
+    font-size: 20pt;
+    color: white;
+    margin: 0 auto;
+    float: left;
+    margin-top: 30px;
+
+}
+
+body {
+    background-color: #4fb1d6 ;
+}
+
+.geral {
+    margin: 0 auto;
+    float: left;
+    margin-left: 50px;
+    width: 50%;
+
+
+}
+.blocoverde {
+    margin: 0 auto;
+    background-color: #367e56 ;
+    float: left;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 430px;
+    height: 230px;
+    
+}
+
+.blocoverde strong{
+    text-transform: uppercase;
+}
+.blocoverde h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12pt;
+    margin: 0 auto;
+    float: left;
+    margin-top: 16px;
+}
+
+.blocoverde input{
+    width: 170px;
+    height: 25px;
+    float:left;
+    margin-top: 11px;
+    margin-left: 10px;
+    box-shadow: none;
+}
+
+.blocoverde button {
+    width: 90px;
+    height: 31px;
+    margin: 0 auto;
+    float:left;
+    margin-left: 5px;
+    margin-top: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: white;
+    background-color: #a051c1;
+    box-shadow: none;
+}
+
+.blocoverde button:hover {
+    width: 90px;
+    height: 31px;
+    margin: 0 auto;
+    float:left;
+    margin-left: 5px;
+    margin-top: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color:black;
+    background-color:white;
+    box-shadow: none;
+}
+
+
+
+
+
+.blocoverde p {
+    margin: auto;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    color: white;
+    margin-top: 10px;
+    font-style: normal;
+
+    }
+#falso {
+    float: left;
+    background-color: white;
+    width: 140px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 20px;
+    margin-left: 10px;
+  
+}
+
+#falso:hover {
+    background-color: #a051c1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12pt;
+    
+
+}
+
+
+
+#verdadeiro {
+    float: left;
+    background-color: white;
+    width: 140px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 20px;
+    margin-left: 10px;
+  
+}
+
+    
+#verdadeiro:hover {
+    background-color: #a051c1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12pt;
+    
+
+}
+
+
+
+
+
+.perguntas {
+    background-color: #367e56;
+    margin: 0 auto;
+    float: left;
+    width: 400px;
+    /* height: 500px; */
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    text-align: left;
+
+}
+
+.perguntas input{
+    width: 170px;
+    height: 25px;
+    margin-top: 10px;
+    float:left;
+    margin-left: 10px;
+}
+
+.perguntas button{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    float:left;
+    margin-left: 10px;
+}
+
+
+.perguntas h2 {
+    font-family: arial;
+    font-size: 14pt;
+    color: white;
+    float: left;
+    margin-top: 30px;
+
+}
+.perguntas h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12pt;
+    float: left;
+
+
+}
+.alinhar{
+    margin: 0 auto;
+    float: left;
+    margin-top: 10px;
+
+}
+
+.perguntas h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12pt;
+    float: left;
+
+
+}
+

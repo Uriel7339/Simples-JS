@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" a href="../aula04/estilo.css" />
+    <title>Projeto JS</title>
+</head>
+
+<body>
+
+
+    <div class="geral">
+        <h1>Olá!, mundo! <br>
+            Este é o meu primeiro projeto em JavaScript. :)
+        </h1>
+        <div class="blocoverde">
+            <h3>Digite o seu nome:</h3>
+            <input value="" id="texto" type="text" name="nome" />
+            <button onclick="nome()">Este sou eu</button>
+            <p>Olá!, <strong></strong></p>
+            <p>A gestação dos cavalos-marinhos é feita pelos machos?</p>
+
+            <a href="#">
+                <div onclick="respostacerta()" id="verdadeiro">VERDADEIRO</div>
+            </a>
+            <a href="#">
+                <div onclick="respostaerrada()" id="falso">FALSO</div>
+            </a>
+            <h3></h3>
+        </div>
+        <div class="perguntas">
+            <h2>Me conte um pouco sobre vc:</h2>
+            <div class="alinhar">
+                <h3>NOME:</h3>
+                <input id="nome2" type="text" name="nome" />
+            </div>
+            <div class="alinhar">
+                <h3>IDADE:</h3>
+                <input id="idade2" type="text" name="nome" />
+            </div>
+            <div class="alinhar">
+                <h3>COR FAVORITA:</h3>
+                <input id="cor2" type="text" name="nome" />
+
+            </div>
+            <div class="alinhar">
+                <button onclick="conhecendo()">
+                    Este sou eu
+                </button>
+
+            </div>
+            <h4></h4>
+
+        </div>
+
+    </div>
+
+    <script>
+        function conhecendo() {
+            var nome = window.document.querySelector('input#nome2')
+            var idade = document.querySelector('input#idade2')
+            var cor = document.querySelector('input#cor2')
+            var resultado = document.getElementsByTagName('h4')[0]
+            var nstri = String = (nome.value)
+            var nidade = Number = (idade.value)
+            var cstri = String = (cor.value)
+            resultado.innerHTML = `Agora sei que seu nome é ${nstri} e que sua idade é ${nidade} anos e que sua cor favorita é ${cstri}. Obrigado !  :)`
+
+        }
+
+
+
+        function nome() {
+            var usuario = window.document.querySelector('input#texto')
+            var resposta = window.document.getElementsByTagName('strong')[0]
+            var campo1 = String = (usuario.value)
+            resposta.innerHTML = `${campo1}`
+
+
+        }
+
+        function respostacerta() {
+
+            var falso = window.document.querySelector('div#falso')
+            var verdadeiro = window.document.querySelector('div#verdadeiro')
+            var visualresultado = window.document.getElementsByTagName('h3')[1]
+            visualresultado.innerText = `RESPOSTA CERTA ! :)`
+            verdadeiro.style.background = 'black'
+            verdadeiro.style.color = 'white'
+            falso.style.background = '#a051c1'
+            falso.style.color = 'white'
+        }
+
+        function respostaerrada() {
+
+            var verdadeiro = window.document.querySelector('div#verdadeiro')
+            var falso = window.document.querySelector('div#falso')
+            var visualresultado = window.document.getElementsByTagName('h3')[1]
+            visualresultado.innerHTML = `RESPOSTA ERRADA ! :(`
+            falso.style.background = 'black'
+            falso.style.color = 'white'
+            verdadeiro.style.background = '#a051c1'
+            verdadeiro.style.color = 'white';
+        }
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
